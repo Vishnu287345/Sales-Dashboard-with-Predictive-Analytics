@@ -1,36 +1,36 @@
 <div align="center" id="top"> 
-<img src="documentation/images/app.gif" alt="Salesdashboard" />
+<img src="documentation/images/app.gif" alt="sales-dashboard" />
 
 &#xa0;
 
-  <!-- <a href="https://salesdashboard.netlify.app">Demo</a> -->
+  <!-- <a href="https://sales-dashboard.netlify.app">Demo</a> -->
 </div>
 
-<h1 align="center">Salesdashboard</h1>
+<h1 align="center">sales-dashboard</h1>
 
 <p align="center">
-  <img alt="Github top language" src="https://img.shields.io/github/languages/top/jocile/salesdashboard?color=56BEB8">
+  <img alt="Github top language" src="https://img.shields.io/github/languages/top/jocile/sales-dashboard?color=56BEB8">
 
-  <img alt="Github language count" src="https://img.shields.io/github/languages/count/jocile/salesdashboard?color=56BEB8">
+  <img alt="Github language count" src="https://img.shields.io/github/languages/count/jocile/sales-dashboard?color=56BEB8">
 
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/jocile/salesdashboard?color=56BEB8">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/jocile/sales-dashboard?color=56BEB8">
 
-  <img alt="License" src="https://img.shields.io/github/license/jocile/salesdashboard?color=56BEB8">
+  <img alt="License" src="https://img.shields.io/github/license/jocile/sales-dashboard?color=56BEB8">
 
-  <img alt="Github issues" src="https://img.shields.io/github/issues/jocile/salesdashboard?color=56BEB8" />
+  <img alt="Github issues" src="https://img.shields.io/github/issues/jocile/sales-dashboard?color=56BEB8" />
 
-  <img alt="Github forks" src="https://img.shields.io/github/forks/jocile/salesdashboard?color=56BEB8" />
+  <img alt="Github forks" src="https://img.shields.io/github/forks/jocile/sales-dashboard?color=56BEB8" />
 
-  <img alt="Github stars" src="https://img.shields.io/github/stars/jocile/salesdashboard?color=56BEB8" /> 
+  <img alt="Github stars" src="https://img.shields.io/github/stars/jocile/sales-dashboard?color=56BEB8" /> 
 </p>
 
 <!-- Status -->
 
 <h4 align="center"> 
-	🚧  Salesdashboard 🚀 Under construction...  🚧
+	🚧  sales-dashboard 🚀 Under construction...  🚧
 </h4>
 
-<hr> -->
+<hr>
 
 <p align="center">
   <a href="#dart-about">About</a> &#xa0; | &#xa0; 
@@ -110,10 +110,10 @@ Before starting :checkered_flag:, you need to have [Git](https://git-scm.com), [
 
 ```bash
 # Clone this project
-$ git clone https://github.com/jocile/salesdashboard
+$ git clone https://github.com/jocile/sales-dashboard
 
 # Access
-$ cd salesdashboard
+$ cd sales-dashboard/frontend
 
 # Install dependencies
 $ yarn

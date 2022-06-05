@@ -94,9 +94,9 @@ The following tools were used in this project:
 :heavy_check_mark: [Spring Data JPA](https://docs.spring.io/spring-boot/docs/2.5.6/reference/htmlsingle/#boot-features-jpa-and-spring-data);\
 :heavy_check_mark: [Swagger implementing springdoc-openapi](https://springdoc.org/);\
 :heavy_check_mark: [Yarn - package management](https://yarnpkg.com/);\
-:construction: [React](https://pt-br.reactjs.org/);\
-:construction: [React Native](https://reactnative.dev/);\
-:construction: [TypeScript](https://www.typescriptlang.org/);\
+:heavy_check_mark: [React](https://pt-br.reactjs.org/);\
+:heavy_check_mark: [React Native](https://reactnative.dev/);\
+:heavy_check_mark: [TypeScript](https://www.typescriptlang.org/);\
 :construction: [Postgresql 12](https://www.postgresql.org/about/news/postgresql-12-released-1976/);\
 :construction: [PgAdmin](https://www.pgadmin.org/);\
 :construction: [Heroku - plataform as a service](https://www.heroku.com/);\
@@ -104,7 +104,7 @@ The following tools were used in this project:
 
 ## :white_check_mark: Requirements
 
-Before starting :checkered_flag:, you need to have [Git](https://git-scm.com), [yarn](https://yarnpkg.com/) and [Java 11](https://docs.oracle.com/en/java/javase/11/);\ installed.
+Before starting :checkered_flag:, you need to have [Git](https://git-scm.com), [yarn](https://yarnpkg.com/) and [Java 11](https://docs.oracle.com/en/java/javase/11/) installed.
 
 ## :checkered_flag: Starting
 
@@ -118,10 +118,19 @@ $ cd sales-dashboard/frontend
 # Install dependencies
 $ yarn
 
-# Run the project
+# Run the project frontend
 $ yarn start
 
 # The server will initialize in the <http://localhost:3000>
+
+# Access
+$ cd ../backend
+
+# Run the project
+$ ./mvnw spring-boot:run
+
+# The server will initialize in the browser
+<http://localhost:8080>
 ```
 
 ## :books: References
@@ -133,10 +142,14 @@ $ yarn start
 :link: [Create an OCI image](https://docs.spring.io/spring-boot/docs/2.4.12/maven-plugin/reference/html/#build-image);\
 :link: [Spring Web](https://docs.spring.io/spring-boot/docs/2.5.6/reference/htmlsingle/#boot-features-developing-web-applications);\
 :link: [Spring Data JPA](https://docs.spring.io/spring-boot/docs/2.5.6/reference/htmlsingle/#boot-features-jpa-and-spring-data);\
+:link: [Spring Security](https://docs.spring.io/spring-boot/docs/2.7.0/reference/htmlsingle/#web.security);\
 :link: [Building a RESTful Web Service](https://spring.io/guides/gs/rest-service/);\
 :link: [Serving Web Content with Spring MVC](https://spring.io/guides/gs/serving-web-content/);\
 :link: [Building REST services with Spring](https://spring.io/guides/tutorials/bookmarks/);\
-:link: [Accessing Data with JPA](https://spring.io/guides/gs/accessing-data-jpa/);
+:link: [Accessing Data with JPA](https://spring.io/guides/gs/accessing-data-jpa/);\
+:link: [Securing a Web Application](https://spring.io/guides/gs/securing-web/);\
+:link: [Spring Boot and OAuth2](https://spring.io/guides/tutorials/spring-boot-oauth2/);\
+:link: [Authenticating a User with LDAP](https://spring.io/guides/gs/authenticating-ldap/);
 
 ## :memo: License
 

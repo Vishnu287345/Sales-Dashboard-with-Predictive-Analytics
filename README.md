@@ -98,6 +98,7 @@ The following tools were used in this project:
 :heavy_check_mark: [React Native](https://reactnative.dev/);\
 :heavy_check_mark: [TypeScript](https://www.typescriptlang.org/);\
 :heavy_check_mark: [Bootstrap](https://getbootstrap.com/);\
+:heavy_check_mark: [Appexcharts.js](https://apexcharts.com/);\
 :construction: [Postgresql 12](https://www.postgresql.org/about/news/postgresql-12-released-1976/);\
 :construction: [PgAdmin](https://www.pgadmin.org/);\
 :construction: [Heroku - plataform as a service](https://www.heroku.com/);\

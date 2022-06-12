@@ -39,6 +39,7 @@
   <a href="#rocket-technologies">Technologies</a> &#xa0; | &#xa0;
   <a href="#white_check_mark-requirements">Requirements</a> &#xa0; | &#xa0;
   <a href="#checkered_flag-starting">Starting</a> &#xa0; | &#xa0;
+  <a href="#trophy">Activities</a> &#xa0; | &#xa0;
   <a href="#books-references">References</a> &#xa0; | &#xa0;
   <a href="#memo-license">License</a> &#xa0; | &#xa0;
   <a href="https://github.com/acenelio" target="_blank">Author</a>
@@ -50,37 +51,13 @@
 
 Design of a web application sales performance analysis dashboard with spring backend and react frontend, form the [DevSuperior](https://devsuperior.com.br/) course.
 
-## Developed activities:
-
-- :heavy_check_mark: Create static front end look;
-  - :construction: Publish the front end to Netlify;
-- :heavy_check_mark: Create Spring Boot project;
-- :heavy_check_mark: Create Git monorepo;
-- :construction: Organize the project in layers;
-  - :heavy_check_mark: REST controller;
-  - :heavy_check_mark: Service;
-  - :heavy_check_mark: Data access (Repository);
-- :construction: Create entities;
-- :construction: Database seeding;
-- :construction: Create REST web services;
-- :construction:: @PathVariable route parameters;
-- :construction: Request parameters @RequestParam;
-- :construction: Request body @RequestBody;
-- :construction: Response from ResponseEntity<T> request;
-- :construction: DTO Standard;
-- :construction: full CRUD;
-- :construction: Exception handling;
-- :construction: Swagger UI (Open API3 collections, environments);
-- :construction: Data pagination;
-- :construction: Associations between entities (N-N);
-
 ## :sparkles: Features
 
 - :construction: Product listing;
 - :construction: Product search by id;
 - :construction: Password recovery;
-- :construction: Administrative area with CRUD;
-- :construction: Sales dashboard;
+- :construction: Database with CRUD;
+- :construction: Sales dashboard with statiscal charts;
 - :construction: Detailed sales list;
 
 ## :rocket: Technologies
@@ -99,7 +76,7 @@ The following tools were used in this project:
 :heavy_check_mark: [React Native](https://reactnative.dev/);\
 :heavy_check_mark: [TypeScript](https://www.typescriptlang.org/);\
 :heavy_check_mark: [Bootstrap](https://getbootstrap.com/);\
-:heavy_check_mark: [Appexcharts.js](https://apexcharts.com/);\
+:heavy_check_mark: [Apexcharts.js](https://apexcharts.com/);\
 :heavy_check_mark: [Netlify - web app server](https://www.netlify.com/);
 :construction: [Postgresql 12](https://www.postgresql.org/about/news/postgresql-12-released-1976/);\
 :construction: [PgAdmin](https://www.pgadmin.org/);\
@@ -135,6 +112,35 @@ $ ./mvnw spring-boot:run
 # The server will initialize in the browser
 <http://localhost:8080>
 ```
+
+## :trophy: Activities
+
+- :heavy_check_mark: Created Git monorepo;
+- :heavy_check_mark: Created Frontend:
+  - :heavy_check_mark: Created static frontend look with Bootstrap and CSS;
+  - :heavy_check_mark: Create visual static components with ReactJS;
+  - :bar_chart: Create statiscal charts with apexcharts;
+  - :heavy_check_mark: Build the front end with Yard;
+  - :heavy_check_mark: Deploy the front end to Netlify;
+- :construction: Create the backend:
+  - :heavy_check_mark: Organized the project in layers with Spring Boot:
+    - :heavy_check_mark: Web, JPA, H2, Postgres and Security;
+  - :construction: Create REST controller;
+    - :construction: @PathVariable route parameters;
+    - :construction: Request parameters @RequestParam;
+    - :construction: Request body @RequestBody;
+    - :construction: Response from ResponseEntity<T> request;
+    - :construction: Exception handling;
+    - :construction: Data pagination;
+    - :construction: Swagger UI (Open API3 collections, environments);
+  - :construction: Create REST Service;
+    - :construction: Create REST web services;
+    - :construction: DTO Standard;
+  - :construction: Create REST Repository (data access);
+    - :construction: Create entities;
+    - :construction: full CRUD;
+    - :construction: Database seeding;
+    - :construction: Associations between entities (N-N);
 
 ## :books: References
 

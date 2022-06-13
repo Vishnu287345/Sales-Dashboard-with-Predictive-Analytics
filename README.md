@@ -34,7 +34,6 @@
 <hr>
 
 <p align="center">
-  <a href="#dart-about">About</a> &#xa0; | &#xa0; 
   <a href="#sparkles-features">Features</a> &#xa0; | &#xa0;
   <a href="#rocket-technologies">Technologies</a> &#xa0; | &#xa0;
   <a href="#white_check_mark-requirements">Requirements</a> &#xa0; | &#xa0;
@@ -64,22 +63,20 @@ Design of a web application sales performance analysis dashboard with spring bac
 
 The following tools were used in this project:
 
-The following tools were used in this project:
-
-:heavy_check_mark: [Java 11](https://docs.oracle.com/en/java/javase/11/);\
-:heavy_check_mark: [Maven](https://maven.apache.org/);\
-:heavy_check_mark: [Spring Boot](https://glysns.gitbook.io/springframework/);\
+:heavy_check_mark: [Java JDK 11](https://docs.oracle.com/en/java/javase/11/);\
+:heavy_check_mark: [Maven builder](https://maven.apache.org/);\
+:heavy_check_mark: [Spring Boot framework](https://glysns.gitbook.io/springframework/);\
 :heavy_check_mark: [Spring Data JPA](https://docs.spring.io/spring-boot/docs/2.5.6/reference/htmlsingle/#boot-features-jpa-and-spring-data);\
 :heavy_check_mark: [Swagger implementing springdoc-openapi](https://springdoc.org/);\
 :heavy_check_mark: [Yarn - package management](https://yarnpkg.com/);\
-:heavy_check_mark: [React](https://pt-br.reactjs.org/);\
+:heavy_check_mark: [ReactJS user interfaces](https://pt-br.reactjs.org/);\
 :heavy_check_mark: [React Native](https://reactnative.dev/);\
 :heavy_check_mark: [TypeScript](https://www.typescriptlang.org/);\
-:heavy_check_mark: [Bootstrap](https://getbootstrap.com/);\
-:heavy_check_mark: [Apexcharts.js](https://apexcharts.com/);\
-:heavy_check_mark: [Netlify - web app server](https://www.netlify.com/);
-:construction: [Postgresql 12](https://www.postgresql.org/about/news/postgresql-12-released-1976/);\
-:construction: [PgAdmin](https://www.pgadmin.org/);\
+:heavy_check_mark: [Bootstrap web framework](https://getbootstrap.com/);\
+:heavy_check_mark: [Apexcharts.js library](https://apexcharts.com/);\
+:heavy_check_mark: [Netlify web app server](https://www.netlify.com/);
+:construction: [Postgresql 12 database](https://www.postgresql.org/about/news/postgresql-12-released-1976/);\
+:construction: [PgAdmin database administration platform](https://www.pgadmin.org/);\
 :construction: [Heroku - plataform as a service](https://www.heroku.com/);\
 
 ## :white_check_mark: Requirements
@@ -100,18 +97,19 @@ $ yarn
 
 # Run the project frontend
 $ yarn start
+```
 
-# The server will initialize in the <http://localhost:3000>
+> The server will initialize in the browser: <http://localhost:3000>
 
-# Access
+```bash
+# Access the backend server with the following
 $ cd ../backend
 
-# Run the project
+# Run the backend interface with
 $ ./mvnw spring-boot:run
-
-# The server will initialize in the browser
-<http://localhost:8080>
 ```
+
+> The server will initialize in the browser: <http://localhost:8080>
 
 ## :trophy: Activities
 
@@ -144,21 +142,21 @@ $ ./mvnw spring-boot:run
 
 ## :books: References
 
-:file_folder: [App documentation](documentation/);\
-:link: [Bootcamp Documentation SDS 5 pt-br](https://github.com/devsuperior/sds5);\
-:link: [Official Apache Maven documentation](https://maven.apache.org/guides/index.html);\
-:link: [Spring Boot Maven Plugin Reference Guide](https://docs.spring.io/spring-boot/docs/2.4.12/maven-plugin/reference/html/);\
-:link: [Create an OCI image](https://docs.spring.io/spring-boot/docs/2.4.12/maven-plugin/reference/html/#build-image);\
-:link: [Spring Web](https://docs.spring.io/spring-boot/docs/2.5.6/reference/htmlsingle/#boot-features-developing-web-applications);\
-:link: [Spring Data JPA](https://docs.spring.io/spring-boot/docs/2.5.6/reference/htmlsingle/#boot-features-jpa-and-spring-data);\
-:link: [Spring Security](https://docs.spring.io/spring-boot/docs/2.7.0/reference/htmlsingle/#web.security);\
-:link: [Building a RESTful Web Service](https://spring.io/guides/gs/rest-service/);\
-:link: [Serving Web Content with Spring MVC](https://spring.io/guides/gs/serving-web-content/);\
-:link: [Building REST services with Spring](https://spring.io/guides/tutorials/bookmarks/);\
-:link: [Accessing Data with JPA](https://spring.io/guides/gs/accessing-data-jpa/);\
-:link: [Securing a Web Application](https://spring.io/guides/gs/securing-web/);\
-:link: [Spring Boot and OAuth2](https://spring.io/guides/tutorials/spring-boot-oauth2/);\
-:link: [Authenticating a User with LDAP](https://spring.io/guides/gs/authenticating-ldap/);
+- :file_folder: [App documentation](documentation/);
+- :link: [Bootcamp Documentation SDS 5 pt-BR](https://github.com/devsuperior/sds5);
+- :link: [Official Apache Maven documentation](https://maven.apache.org/guides/index.html);
+- :link: [Spring Boot Maven Plugin Reference Guide](https://docs.spring.io/spring-boot/docs/2.4.12/maven-plugin/reference/htmlsingle/);
+- :link: [Create an OCI image](https://docs.spring.io/spring-boot/docs/2.4.12/maven-plugin/reference/html/#build-image);
+- :link: [Spring Web](https://docs.spring.io/spring-boot/docs/2.5.6/reference/htmlsingle/#features.developing-web-applications);
+  - :link: [Building a RESTful Web Service](https://spring.io/guides/gs/rest-service/);
+  - :link: [Serving Web Content with Spring MVC](https://spring.io/guides/gs/serving-web-content/);
+- :link: [Spring Data JPA](https://docs.spring.io/spring-boot/docs/2.5.6/reference/htmlsingle/#features.sql.jpa-and-spring-data);
+  - :link: [Accessing Data with JPA](https://spring.io/guides/gs/accessing-data-jpa/);
+- :link: [Spring Security](https://docs.spring.io/spring-boot/docs/2.7.0/reference/htmlsingle/#web.security);
+  - :link: [Securing a Web Application](https://spring.io/guides/gs/securing-web/);
+  - :link: [Enabling Cross Origin Requests for a RESTful Web Service](https://spring.io/blog/2022/02/21/spring-security-without-the-websecurityconfigureradapter)
+  - :link: [Spring Boot and OAuth2](https://spring.io/guides/tutorials/spring-boot-oauth2/);
+  - :link: [Authenticating a User with LDAP](https://spring.io/guides/gs/authenticating-ldap/);
 
 ## :memo: License
 

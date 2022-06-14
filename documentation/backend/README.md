@@ -9,7 +9,13 @@
 
 ![](EntitiesERDiagram.drawio.svg)
 
-> Design of the conceptual model of the entity relationship.
+> Design of the conceptual model of the entities relationship.
+
+<h1>Data Model diagram</h1>
+
+![](DataModel.drawio.svg)
+
+> Design of the data model of the entities relationship.
 
 :computer: Modeled by [diagrams.net](https://github.com/jocile/Modeling) and made with :heart: by <a href="https://github.com/jocile" target="_blank">Jocile</a>
 

@@ -109,7 +109,8 @@ $ cd ../backend
 $ ./mvnw spring-boot:run
 ```
 
-> The server will initialize in the browser: <http://localhost:8080>
+> The server will initialize in the browser: <http://localhost:8080>\
+> The in-memory database H2 will be initialized in <http://localhost:8080/h2-console>
 
 ## :trophy: Activities
 

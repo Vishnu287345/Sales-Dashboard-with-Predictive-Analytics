@@ -99,7 +99,7 @@ $ yarn
 $ yarn start
 ```
 
-> The server will initialize in the browser: <http://localhost:3000>
+> The frontend server will initialize in the browser: <http://localhost:3000>
 
 ```bash
 # Access the backend server with the following
@@ -109,7 +109,7 @@ $ cd ../backend
 $ ./mvnw spring-boot:run
 ```
 
-> The server will initialize in the browser: <http://localhost:8080>\
+> The backend server will initialize in the browser: <http://localhost:8080/sellers>\
 > The in-memory database H2 will be initialized in <http://localhost:8080/h2-console>
 
 ## :trophy: Activities
@@ -124,7 +124,15 @@ $ ./mvnw spring-boot:run
 - :construction: Create the backend:
   - :heavy_check_mark: Organized the project in layers with Spring Boot:
     - :heavy_check_mark: Web, JPA, H2, Postgres and Security;
-  - :construction: Create REST controller;
+  - :heavy_check_mark: Create REST Service;
+    - :heavy_check_mark: Create REST web services;
+    - :heavy_check_mark: DTO Standard;
+  - :heavy_check_mark: Create REST Repository (data access);
+    - :heavy_check_mark: Create entities;
+    - :construction: full CRUD;
+    - :heavy_check_mark: Database seeding;
+    - :heavy_check_mark: Associations between entities (N-N);
+  - :construction: Create REST controller:
     - :construction: @PathVariable route parameters;
     - :construction: Request parameters @RequestParam;
     - :construction: Request body @RequestBody;
@@ -132,14 +140,6 @@ $ ./mvnw spring-boot:run
     - :construction: Exception handling;
     - :construction: Data pagination;
     - :construction: Swagger UI (Open API3 collections, environments);
-  - :construction: Create REST Service;
-    - :construction: Create REST web services;
-    - :construction: DTO Standard;
-  - :construction: Create REST Repository (data access);
-    - :construction: Create entities;
-    - :construction: full CRUD;
-    - :construction: Database seeding;
-    - :construction: Associations between entities (N-N);
 
 ## :books: References
 

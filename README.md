@@ -74,7 +74,7 @@ The following tools were used in this project:
 :heavy_check_mark: [TypeScript](https://www.typescriptlang.org/);\
 :heavy_check_mark: [Bootstrap web framework](https://getbootstrap.com/);\
 :heavy_check_mark: [Apexcharts.js library](https://apexcharts.com/);\
-:heavy_check_mark: [Netlify web app server](https://www.netlify.com/);
+:heavy_check_mark: [Netlify web app server](https://www.netlify.com/);\
 :construction: [Postgresql 12 database](https://www.postgresql.org/about/news/postgresql-12-released-1976/);\
 :construction: [PgAdmin database administration platform](https://www.pgadmin.org/);\
 :construction: [Heroku - plataform as a service](https://www.heroku.com/);\
@@ -109,7 +109,7 @@ $ cd ../backend
 $ ./mvnw spring-boot:run
 ```
 
-> The backend server will initialize in the browser: <http://localhost:8080/sellers>\
+> The backend server will initialize in the browser: <http://localhost:8080/swagger-ui/index.html>\
 > The in-memory database H2 will be initialized in <http://localhost:8080/h2-console>
 
 ## :trophy: Activities
@@ -133,13 +133,13 @@ $ ./mvnw spring-boot:run
     - :heavy_check_mark: Database seeding;
     - :heavy_check_mark: Associations between entities (N-N);
   - :construction: Create REST controller:
+    - :heavy_check_mark: Swagger UI (Open API3 collections, environments);
     - :construction: @PathVariable route parameters;
     - :construction: Request parameters @RequestParam;
     - :construction: Request body @RequestBody;
     - :construction: Response from ResponseEntity<T> request;
     - :construction: Exception handling;
     - :construction: Data pagination;
-    - :construction: Swagger UI (Open API3 collections, environments);
 
 ## :books: References
 

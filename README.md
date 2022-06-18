@@ -52,12 +52,14 @@ Design of a web application sales performance analysis dashboard with spring bac
 
 ## :sparkles: Features
 
-- :construction: Product listing;
-- :construction: Product search by id;
-- :construction: Password recovery;
-- :construction: Database with CRUD;
-- :construction: Sales dashboard with statiscal charts;
-- :construction: Detailed sales list;
+:heavy_check_mark: Sales performance analysis dashboard listing;\
+:heavy_check_mark: Sales dashboard with statiscal charts;\
+:heavy_check_mark: Paged search of sales;\
+:heavy_check_mark: Detailed sales list;\
+:heavy_check_mark: API documentation with springdoc-openapi;\
+:construction: Product search by id;\
+:construction: Password recovery;\
+:construction: Database with CRUD;
 
 ## :rocket: Technologies
 
@@ -134,12 +136,12 @@ $ ./mvnw spring-boot:run
     - :heavy_check_mark: Associations between entities (N-N);
   - :construction: Create REST controller:
     - :heavy_check_mark: Swagger UI (Open API3 collections, environments);
+    - :heavy_check_mark: Data pagination with pageable, page, size, sort;
+    - :heavy_check_mark: Response from ResponseEntity<T> request;
     - :construction: @PathVariable route parameters;
     - :construction: Request parameters @RequestParam;
     - :construction: Request body @RequestBody;
-    - :construction: Response from ResponseEntity<T> request;
     - :construction: Exception handling;
-    - :construction: Data pagination;
 
 ## :books: References
 

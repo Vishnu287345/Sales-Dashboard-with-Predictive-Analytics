@@ -81,7 +81,7 @@ The following tools were used in this project:
 :heavy_check_mark: [Netlify web app server](https://www.netlify.com/);\
 :construction: [Postgresql 12 database](https://www.postgresql.org/about/news/postgresql-12-released-1976/);\
 :construction: [PgAdmin database administration platform](https://www.pgadmin.org/);\
-:construction: [Heroku - plataform as a service](https://www.heroku.com/);\
+:construction: [Heroku - plataform as a service](https://www.heroku.com/);
 
 ## :white_check_mark: Requirements
 

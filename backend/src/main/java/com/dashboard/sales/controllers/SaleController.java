@@ -1,6 +1,7 @@
 package com.dashboard.sales.controllers;
 
 import com.dashboard.sales.dto.SaleDTO;
+import com.dashboard.sales.dto.SaleSuccessDTO;
 import com.dashboard.sales.dto.SaleSumDTO;
 import com.dashboard.sales.services.SaleService;
 import io.swagger.v3.oas.annotations.Operation;
@@ -57,11 +58,22 @@ public class SaleController {
   @GetMapping(value = "/amount-by-seller")
   @Operation(
     summary = "Sales amounts sumary list",
-    description = "List of sales sum grouped by seller",
-    tags = { "Amount by seller" }
+    description = "List of sales totals by salesperson - to fill in the donut chart",
+    tags = { "Sales by seller" }
   )
   public ResponseEntity<List<SaleSumDTO>> amountGroupedBySeller() {
     List<SaleSumDTO> list = service.amountGroupedBySeller();
+    return ResponseEntity.ok(list);
+  }
+
+  @GetMapping(value = "/success-by-seller")
+  @Operation(
+    summary = "Sales success sumary list",
+    description = "Success Rate List by Seller - to fill in the bar chart",
+    tags = { "Sales by seller" }
+  )
+  public ResponseEntity<List<SaleSuccessDTO>> successGroupedBySeller() {
+    List<SaleSuccessDTO> list = service.successGroupedBySeller();
     return ResponseEntity.ok(list);
   }
 }

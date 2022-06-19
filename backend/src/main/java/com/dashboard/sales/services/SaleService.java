@@ -1,6 +1,7 @@
 package com.dashboard.sales.services;
 
 import com.dashboard.sales.dto.SaleDTO;
+import com.dashboard.sales.dto.SaleSuccessDTO;
 import com.dashboard.sales.dto.SaleSumDTO;
 import com.dashboard.sales.entities.Sale;
 import com.dashboard.sales.repositories.SaleRepository;
@@ -30,5 +31,10 @@ public class SaleService {
   @Transactional(readOnly = true)
   public List<SaleSumDTO> amountGroupedBySeller() {
     return repository.amountGroupedBySeller();
+  }
+
+  @Transactional(readOnly = true)
+  public List<SaleSuccessDTO> successGroupedBySeller() {
+    return repository.successGroupedBySeller();
   }
 }

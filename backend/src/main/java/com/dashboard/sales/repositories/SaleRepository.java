@@ -1,5 +1,6 @@
 package com.dashboard.sales.repositories;
 
+import com.dashboard.sales.dto.SaleSuccessDTO;
 import com.dashboard.sales.dto.SaleSumDTO;
 import com.dashboard.sales.entities.Sale;
 import java.util.List;
@@ -12,4 +13,10 @@ public interface SaleRepository extends JpaRepository<Sale, Long> {
     " FROM Sale as obj GROUP BY obj.seller"
   )
   List<SaleSumDTO> amountGroupedBySeller();
+
+  @Query(
+    "SELECT new com.dashboard.sales.dto.SaleSuccessDTO(obj.seller, SUM(obj.visited), SUM(obj.deals))" +
+    " FROM Sale as obj GROUP BY obj.seller"
+  )
+  List<SaleSuccessDTO> successGroupedBySeller();
 }

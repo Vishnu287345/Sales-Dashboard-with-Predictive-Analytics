@@ -54,12 +54,14 @@ Design of a web application sales performance analysis dashboard with spring bac
 
 :heavy_check_mark: Sales performance analysis dashboard listing;\
 :heavy_check_mark: Sales dashboard with statiscal charts;\
+:heavy_check_mark: Total sales search by seller - filling the donut chart;\
+:heavy_check_mark: Success rate search by seller - filling the bar chart;\
 :heavy_check_mark: Paged search of sales;\
 :heavy_check_mark: Detailed sales list;\
 :heavy_check_mark: API documentation with springdoc-openapi;\
-:construction: Product search by id;\
-:construction: Password recovery;\
-:construction: Database with CRUD;
+:heavy_check_mark: Frontend access with [Netlify](https://dashboard-jocile.netlify.app/);\
+:construction: Database with Postgres;\
+:construction: Backend access with Heroku;
 
 ## :rocket: Technologies
 

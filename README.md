@@ -103,7 +103,7 @@ $ yarn
 $ yarn start
 ```
 
-> The local frontend server will initialize in the browser: <http://localhost:3000>
+> The local frontend server will initialize in the browser: <http://localhost:3000>\
 > and Dashboard URL route will be initialized in: <http://localhost:3000/dashboard>
 
 ```bash

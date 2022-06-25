@@ -104,6 +104,7 @@ $ yarn start
 ```
 
 > The local frontend server will initialize in the browser: <http://localhost:3000>
+> and Dashboard URL route will be initialized in: <http://localhost:3000/dashboard>
 
 ```bash
 # Access the backend server with the following
@@ -114,7 +115,7 @@ $ ./mvnw spring-boot:run
 ```
 
 > The local backend server will initialize in the browser: <http://localhost:8080/swagger-ui/index.html>\
-> The local in-memory database H2 will be initialized in <http://localhost:8080/h2-console>
+> and in-memory database H2 will be initialized in <http://localhost:8080/h2-console>
 
 ## :trophy: Activities
 
@@ -140,6 +141,7 @@ $ ./mvnw spring-boot:run
     - :heavy_check_mark: Data pagination with pageable, page, size, sort;
     - :heavy_check_mark: Response from ResponseEntity<T> request;
   - :construction: Frontend dynamically loading data from the backend;
+    - :heavy_check_mark: URL path route parameters;
 
 ## :books: References
 

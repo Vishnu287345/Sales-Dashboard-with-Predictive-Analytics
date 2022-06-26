@@ -3,8 +3,6 @@
 
 <p align="center">
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/1080ab31-1125-4c72-a5e8-1d68e51e3766/deploy-status)](https://app.netlify.com/sites/dashboard-jocile/deploys)
-
   <img alt="Github top language" src="https://img.shields.io/github/languages/top/jocile/sales-dashboard?color=56BEB8">
 
   <img alt="Github language count" src="https://img.shields.io/github/languages/count/jocile/sales-dashboard?color=56BEB8">
@@ -20,19 +18,14 @@
   <img alt="Github stars" src="https://img.shields.io/github/stars/jocile/sales-dashboard?color=56BEB8" /> 
 </p>
 
-<!-- Status -->
+<!-- Status
 
-<h4 align="center"> 
+<h4 align="center">
 	🚧  sales-dashboard 🚀 Under construction...  🚧
 </h4>
-<hr>
-
-</div>
+-->
 
 &#xa0;
-
-<img src="documentation/images/app.gif" alt="sales-dashboard" />
-<a href="https://dashboard-jocile.netlify.app/">Demo</a>
 
 <p align="center">
   <a href="#sparkles-features">Features</a> &#xa0; | &#xa0;
@@ -45,7 +38,15 @@
   <a href="https://github.com/acenelio" target="_blank">Author</a>
 </p>
 
+<img src="documentation/images/app.gif" alt="sales-dashboard" />
+
 <br>
+[![Netlify Status](https://api.netlify.com/api/v1/badges/1080ab31-1125-4c72-a5e8-1d68e51e3766/deploy-status)](https://app.netlify.com/sites/dashboard-jocile/deploys)
+
+<a href="https://dashboard-jocile.netlify.app/">Demo</a>
+
+</div>
+<hr>
 
 ## :dart: About
 
@@ -147,6 +148,7 @@ $ ./mvnw spring-boot:run
   - :heavy_check_mark: BarChart request integration;
   - :heavy_check_mark: DataTable request integration;
     - :heavy_check_mark: props components pagination;
+  - :heavy_check_mark: frontend on Netlify making backend requests on Heroku
 
 ## :books: References
 

@@ -1,15 +1,10 @@
 <div align="center" id="top"> 
-<img src="documentation/images/app.gif" alt="sales-dashboard" />
-
-&#xa0;
-
-<a href="https://dashboard-jocile.netlify.app/">Demo</a>
-
-</div>
-
 <h1 align="center">sales-dashboard</h1>
 
 <p align="center">
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/1080ab31-1125-4c72-a5e8-1d68e51e3766/deploy-status)](https://app.netlify.com/sites/dashboard-jocile/deploys)
+
   <img alt="Github top language" src="https://img.shields.io/github/languages/top/jocile/sales-dashboard?color=56BEB8">
 
   <img alt="Github language count" src="https://img.shields.io/github/languages/count/jocile/sales-dashboard?color=56BEB8">
@@ -30,8 +25,14 @@
 <h4 align="center"> 
 	🚧  sales-dashboard 🚀 Under construction...  🚧
 </h4>
-
 <hr>
+
+</div>
+
+&#xa0;
+
+<img src="documentation/images/app.gif" alt="sales-dashboard" />
+<a href="https://dashboard-jocile.netlify.app/">Demo</a>
 
 <p align="center">
   <a href="#sparkles-features">Features</a> &#xa0; | &#xa0;
@@ -126,7 +127,7 @@ $ ./mvnw spring-boot:run
   - :bar_chart: Create statiscal charts with apexcharts;
   - :heavy_check_mark: Build the front end with Yard;
   - :heavy_check_mark: Deploy the front end to Netlify;
-- :construction: Create the backend:
+- :heavy_check_mark: Create the backend:
   - :heavy_check_mark: Organized the project in layers with Spring Boot:
     - :heavy_check_mark: Web, JPA, H2, Postgres and Security;
   - :heavy_check_mark: Create REST Service;
@@ -140,11 +141,12 @@ $ ./mvnw spring-boot:run
     - :heavy_check_mark: Swagger UI (Open API3 collections, environments);
     - :heavy_check_mark: Data pagination with pageable, page, size, sort;
     - :heavy_check_mark: Response from ResponseEntity<T> request;
-  - :construction: Frontend dynamically loading data from the backend;
-    - :heavy_check_mark: URL path route parameters;
-    - :heavy_check_mark: DonutChart request integration;
-    - :heavy_check_mark: BarChart request integration;
-    - :construction: DataTable request integration;
+- :construction: Frontend dynamically loading data from the backend;
+  - :heavy_check_mark: URL path route parameters;
+  - :heavy_check_mark: DonutChart request integration;
+  - :heavy_check_mark: BarChart request integration;
+  - :heavy_check_mark: DataTable request integration;
+    - :heavy_check_mark: props components pagination;
 
 ## :books: References
 
@@ -164,7 +166,9 @@ $ ./mvnw spring-boot:run
   - :link: [Spring Boot and OAuth2](https://spring.io/guides/tutorials/spring-boot-oauth2/);
   - :link: [Authenticating a User with LDAP](https://spring.io/guides/gs/authenticating-ldap/);
 - :link: [Tutorial: Intro to React](https://reactjs.org/tutorial/tutorial.html);
+  - :link: [React Bootstrap](https://react-bootstrap.github.io/);
   - :link: [Upgrading React Router](https://reactrouter.com/docs/en/v6/upgrading/reach);
+  - :link: [Styled components in React](https://styled-components.com/docs/basics);
 - :link: [TypeScript Documentation](https://www.typescriptlang.org/docs/);
 
 ## :memo: License

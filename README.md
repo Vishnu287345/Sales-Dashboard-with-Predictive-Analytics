@@ -1,5 +1,5 @@
 <div align="center" id="top"> 
-<h1 align="center">sales-dashboard</h1>
+<h1 align="center">Sales dashboard</h1>
 
 <p align="center">
 
@@ -17,16 +17,11 @@
 
   <img alt="Github stars" src="https://img.shields.io/github/stars/jocile/sales-dashboard?color=56BEB8" /> 
 </p>
-
-<!-- Status
-
+<!-- Status 
 <h4 align="center">
 	🚧  sales-dashboard 🚀 Under construction...  🚧
 </h4>
 -->
-
-&#xa0;
-
 <p align="center">
   <a href="#sparkles-features">Features</a> &#xa0; | &#xa0;
   <a href="#rocket-technologies">Technologies</a> &#xa0; | &#xa0;
@@ -39,15 +34,13 @@
 </p>
 
 <img src="documentation/images/app.gif" alt="sales-dashboard" />
-
 <br>
-
-[![Netlify Status](https://api.netlify.com/api/v1/badges/1080ab31-1125-4c72-a5e8-1d68e51e3766/deploy-status)](https://app.netlify.com/sites/dashboard-jocile/deploys)
-
 <a href="https://dashboard-jocile.netlify.app/">Demo</a>
 
 </div>
 <hr>
+
+&#xa0;
 
 ## :dart: About
 

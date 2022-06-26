@@ -142,6 +142,9 @@ $ ./mvnw spring-boot:run
     - :heavy_check_mark: Response from ResponseEntity<T> request;
   - :construction: Frontend dynamically loading data from the backend;
     - :heavy_check_mark: URL path route parameters;
+    - :heavy_check_mark: DonutChart request integration;
+    - :heavy_check_mark: BarChart request integration;
+    - :construction: DataTable request integration;
 
 ## :books: References
 
@@ -160,6 +163,9 @@ $ ./mvnw spring-boot:run
   - :link: [Enabling Cross Origin Requests for a RESTful Web Service](https://spring.io/blog/2022/02/21/spring-security-without-the-websecurityconfigureradapter)
   - :link: [Spring Boot and OAuth2](https://spring.io/guides/tutorials/spring-boot-oauth2/);
   - :link: [Authenticating a User with LDAP](https://spring.io/guides/gs/authenticating-ldap/);
+- :link: [Tutorial: Intro to React](https://reactjs.org/tutorial/tutorial.html);
+  - :link: [Upgrading React Router](https://reactrouter.com/docs/en/v6/upgrading/reach);
+- :link: [TypeScript Documentation](https://www.typescriptlang.org/docs/);
 
 ## :memo: License
 

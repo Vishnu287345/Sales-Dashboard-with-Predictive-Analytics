@@ -41,6 +41,7 @@
 <img src="documentation/images/app.gif" alt="sales-dashboard" />
 
 <br>
+
 [![Netlify Status](https://api.netlify.com/api/v1/badges/1080ab31-1125-4c72-a5e8-1d68e51e3766/deploy-status)](https://app.netlify.com/sites/dashboard-jocile/deploys)
 
 <a href="https://dashboard-jocile.netlify.app/">Demo</a>
@@ -142,7 +143,7 @@ $ ./mvnw spring-boot:run
     - :heavy_check_mark: Swagger UI (Open API3 collections, environments);
     - :heavy_check_mark: Data pagination with pageable, page, size, sort;
     - :heavy_check_mark: Response from ResponseEntity<T> request;
-- :construction: Frontend dynamically loading data from the backend;
+- :heavy_check_mark: Frontend dynamically loading data from the backend;
   - :heavy_check_mark: URL path route parameters;
   - :heavy_check_mark: DonutChart request integration;
   - :heavy_check_mark: BarChart request integration;

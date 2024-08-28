@@ -1,178 +1,80 @@
-<div align="center" id="top"> 
-<h1 align="center">Sales dashboard</h1>
+# Sales Dashboard with Predictive Analytics
 
-<p align="center">
+## Project Overview
 
-  <img alt="Github top language" src="https://img.shields.io/github/languages/top/jocile/sales-dashboard?color=56BEB8">
+This project features a full-stack web application that provides an interactive sales dashboard integrated with predictive analytics. The application visualizes sales data in real-time and uses machine learning to forecast future sales trends, aiding in strategic decision-making.
 
-  <img alt="Github language count" src="https://img.shields.io/github/languages/count/jocile/sales-dashboard?color=56BEB8">
+## Features
 
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/jocile/sales-dashboard?color=56BEB8">
+- **Interactive Dashboard:** Displays real-time sales metrics and trends using dynamic charts and graphs.
+- **Predictive Analytics:** Implements machine learning models to forecast future sales, providing actionable insights.
+- **Data Integration:** Fetches and processes sales data from multiple sources to ensure up-to-date information.
 
-  <img alt="License" src="https://img.shields.io/github/license/jocile/sales-dashboard?color=56BEB8">
+## Tech Stack
 
-  <img alt="Github issues" src="https://img.shields.io/github/issues/jocile/sales-dashboard?color=56BEB8" />
+- **Frontend:**
+  - **React**: For building a responsive and interactive user interface.
+  - **Chart.js**: For creating real-time data visualizations and charts.
 
-  <img alt="Github forks" src="https://img.shields.io/github/forks/jocile/sales-dashboard?color=56BEB8" />
+- **Backend:**
+  - **Flask**: For developing RESTful APIs and handling backend logic.
+  - **Python**: For data processing and model integration.
 
-  <img alt="Github stars" src="https://img.shields.io/github/stars/jocile/sales-dashboard?color=56BEB8" /> 
-</p>
-<!-- Status 
-<h4 align="center">
-	🚧  sales-dashboard 🚀 Under construction...  🚧
-</h4>
--->
-<p align="center">
-  <a href="#sparkles-features">Features</a> &#xa0; | &#xa0;
-  <a href="#rocket-technologies">Technologies</a> &#xa0; | &#xa0;
-  <a href="#white_check_mark-requirements">Requirements</a> &#xa0; | &#xa0;
-  <a href="#checkered_flag-starting">Starting</a> &#xa0; | &#xa0;
-  <a href="#trophy">Activities</a> &#xa0; | &#xa0;
-  <a href="#books-references">References</a> &#xa0; | &#xa0;
-  <a href="#memo-license">License</a> &#xa0; | &#xa0;
-  <a href="https://github.com/acenelio" target="_blank">Author</a>
-</p>
+- **Predictive Analytics:**
+  - **Python**: For implementing machine learning models.
+  - **Scikit-Learn**: For training and deploying predictive models.
+  - **Pandas**: For data manipulation and analysis.
 
-<img src="documentation/images/app.gif" alt="sales-dashboard" />
-<br>
-<a href="https://dashboard-jocile.netlify.app/">Demo</a>
+- **Database:**
+  - **PostgreSQL** or **MongoDB**: For storing and managing sales data.
 
-</div>
-<hr>
+- **Deployment:**
+  - **Docker**: For containerizing the application.
+  - **AWS**: For cloud deployment and scaling.
 
-&#xa0;
+## Installation
 
-## :dart: About
+1. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/Vishnu287345/sales-dashboard-predictive-analytics.git
+   cd sales-dashboard-predictive-analytics
+   ```
 
-Design of a web application sales performance analysis dashboard with spring backend and react frontend, form the [DevSuperior](https://devsuperior.com.br/) course.
+2. **Install Dependencies:**
+   - For backend:
+     ```bash
+     pip install -r requirements.txt
+     ```
 
-## :sparkles: Features
+   - For frontend:
+     ```bash
+     cd frontend
+     npm install
+     ```
 
-:heavy_check_mark: Sales performance analysis dashboard listing;\
-:heavy_check_mark: Sales dashboard with statiscal charts;\
-:heavy_check_mark: Total sales search by seller - filling the donut chart;\
-:heavy_check_mark: Success rate search by seller - filling the bar chart;\
-:heavy_check_mark: Paged search of sales;\
-:heavy_check_mark: Detailed sales list;\
-:heavy_check_mark: API documentation with springdoc-openapi;\
-:heavy_check_mark: Frontend access with [Netlify](https://dashboard-jocile.netlify.app/);\
-:heavy_check_mark: Database with Postgres;\
-:heavy_check_mark: Backend access with [Heroku](https://sales-dashboard-jocile.herokuapp.com/sellers);
+3. **Set Up the Database:**
+   Create and configure your PostgreSQL or MongoDB database, and ensure it is running.
 
-## :rocket: Technologies
+4. **Run the Backend Server:**
+   ```bash
+   python app.py
+   ```
 
-The following tools were used in this project:
+5. **Run the Frontend Application:**
+   ```bash
+   cd frontend
+   npm start
+   ```
 
-:heavy_check_mark: [Java JDK 11](https://docs.oracle.com/en/java/javase/11/);\
-:heavy_check_mark: [Maven builder](https://maven.apache.org/);\
-:heavy_check_mark: [Spring Boot framework](https://glysns.gitbook.io/springframework/);\
-:heavy_check_mark: [Spring Data JPA](https://docs.spring.io/spring-boot/docs/2.5.6/reference/htmlsingle/#boot-features-jpa-and-spring-data);\
-:heavy_check_mark: [Swagger implementing springdoc-openapi](https://springdoc.org/);\
-:heavy_check_mark: [Yarn - package management](https://yarnpkg.com/);\
-:heavy_check_mark: [ReactJS user interfaces](https://pt-br.reactjs.org/);\
-:heavy_check_mark: [React Native](https://reactnative.dev/);\
-:heavy_check_mark: [TypeScript](https://www.typescriptlang.org/);\
-:heavy_check_mark: [Bootstrap web framework](https://getbootstrap.com/);\
-:heavy_check_mark: [Apexcharts.js library](https://apexcharts.com/);\
-:heavy_check_mark: [Netlify web app server](https://www.netlify.com/);\
-:heavy_check_mark: [Postgresql 12 database](https://www.postgresql.org/about/news/postgresql-12-released-1976/);\
-:heavy_check_mark: [PgAdmin database administration platform](https://www.pgadmin.org/);\
-:heavy_check_mark: [Heroku - plataform as a service](https://www.heroku.com/);
+## Usage
 
-## :white_check_mark: Requirements
+1. **Access the Dashboard:**
+   Open your web browser and navigate to `http://localhost:3000` to view the sales dashboard.
 
-Before starting :checkered_flag:, you need to have [Git](https://git-scm.com), [yarn](https://yarnpkg.com/) and [Java 11](https://docs.oracle.com/en/java/javase/11/) installed.
+2. **View Predictive Analytics:**
+   The dashboard will display real-time sales data and predictions based on the implemented machine learning models.
 
-## :checkered_flag: Starting
+## Examples
 
-```bash
-# Clone this project
-$ git clone https://github.com/jocile/sales-dashboard
-
-# Access
-$ cd sales-dashboard/frontend
-
-# Install dependencies
-$ yarn
-
-# Run the project frontend
-$ yarn start
-```
-
-> The local frontend server will initialize in the browser: <http://localhost:3000>\
-> and Dashboard URL route will be initialized in: <http://localhost:3000/dashboard>
-
-```bash
-# Access the backend server with the following
-$ cd ../backend
-
-# Run the backend interface with
-$ ./mvnw spring-boot:run
-```
-
-> The local backend server will initialize in the browser: <http://localhost:8080/swagger-ui/index.html>\
-> and in-memory database H2 will be initialized in <http://localhost:8080/h2-console>
-
-## :trophy: Activities
-
-- :heavy_check_mark: Created Git monorepo;
-- :heavy_check_mark: Created Frontend:
-  - :heavy_check_mark: Created static frontend look with Bootstrap and CSS;
-  - :heavy_check_mark: Create visual static components with ReactJS;
-  - :bar_chart: Create statiscal charts with apexcharts;
-  - :heavy_check_mark: Build the front end with Yard;
-  - :heavy_check_mark: Deploy the front end to Netlify;
-- :heavy_check_mark: Create the backend:
-  - :heavy_check_mark: Organized the project in layers with Spring Boot:
-    - :heavy_check_mark: Web, JPA, H2, Postgres and Security;
-  - :heavy_check_mark: Create REST Service;
-    - :heavy_check_mark: Create REST web services;
-    - :heavy_check_mark: DTO Standard;
-  - :heavy_check_mark: Create REST Repository (data access);
-    - :heavy_check_mark: Create entities;
-    - :heavy_check_mark: Database seeding;
-    - :heavy_check_mark: Associations between entities (N-N);
-  - :heavy_check_mark: Create REST controller:
-    - :heavy_check_mark: Swagger UI (Open API3 collections, environments);
-    - :heavy_check_mark: Data pagination with pageable, page, size, sort;
-    - :heavy_check_mark: Response from ResponseEntity<T> request;
-- :heavy_check_mark: Frontend dynamically loading data from the backend;
-  - :heavy_check_mark: URL path route parameters;
-  - :heavy_check_mark: DonutChart request integration;
-  - :heavy_check_mark: BarChart request integration;
-  - :heavy_check_mark: DataTable request integration;
-    - :heavy_check_mark: props components pagination;
-  - :heavy_check_mark: frontend on Netlify making backend requests on Heroku
-
-## :books: References
-
-- :file_folder: [App documentation](documentation/);
-- :link: [Bootcamp Documentation SDS 5 pt-BR](https://github.com/devsuperior/sds5);
-- :link: [Official Apache Maven documentation](https://maven.apache.org/guides/index.html);
-- :link: [Spring Boot Maven Plugin Reference Guide](https://docs.spring.io/spring-boot/docs/2.4.12/maven-plugin/reference/htmlsingle/);
-- :link: [Create an OCI image](https://docs.spring.io/spring-boot/docs/2.4.12/maven-plugin/reference/html/#build-image);
-- :link: [Spring Web](https://docs.spring.io/spring-boot/docs/2.5.6/reference/htmlsingle/#features.developing-web-applications);
-  - :link: [Building a RESTful Web Service](https://spring.io/guides/gs/rest-service/);
-  - :link: [Serving Web Content with Spring MVC](https://spring.io/guides/gs/serving-web-content/);
-- :link: [Spring Data JPA](https://docs.spring.io/spring-boot/docs/2.5.6/reference/htmlsingle/#features.sql.jpa-and-spring-data);
-  - :link: [Accessing Data with JPA](https://spring.io/guides/gs/accessing-data-jpa/);
-- :link: [Spring Security](https://docs.spring.io/spring-boot/docs/2.7.0/reference/htmlsingle/#web.security);
-  - :link: [Securing a Web Application](https://spring.io/guides/gs/securing-web/);
-  - :link: [Enabling Cross Origin Requests for a RESTful Web Service](https://spring.io/blog/2022/02/21/spring-security-without-the-websecurityconfigureradapter)
-  - :link: [Spring Boot and OAuth2](https://spring.io/guides/tutorials/spring-boot-oauth2/);
-  - :link: [Authenticating a User with LDAP](https://spring.io/guides/gs/authenticating-ldap/);
-- :link: [Tutorial: Intro to React](https://reactjs.org/tutorial/tutorial.html);
-  - :link: [React Bootstrap](https://react-bootstrap.github.io/);
-  - :link: [Upgrading React Router](https://reactrouter.com/docs/en/v6/upgrading/reach);
-  - :link: [Styled components in React](https://styled-components.com/docs/basics);
-- :link: [TypeScript Documentation](https://www.typescriptlang.org/docs/);
-
-## :memo: License
-
-This project is under license from MIT. For more details, see the [LICENSE](LICENSE.md) file.
-
-Made with :heart: by <a href="https://github.com/jocile" target="_blank">Jocile</a>
-
-&#xa0;
-
-<a href="#top">Back to top</a>
+- **Sales Trends Visualization:** Interactive charts showing sales performance over time.
+- **Forecasted Sales:** Predictions and insights based on historical data and model analysis.
